@@ -1,0 +1,14 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task5"
+        xmlns:UsersControlElemets="clr-namespace:UsersControlElemets;assembly=UserControlElements" x:Class="Task5.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="471" Width="619">
+    <Grid>
+        <UsersControlElemets:ProductCounter HorizontalAlignment="Left" Margin="236,226,0,0" VerticalAlignment="Top"/>
+        <UsersControlElemets:TimeControl HorizontalAlignment="Center" Margin="0,150,0,0" VerticalAlignment="Top" FontSize="50"/>
+    </Grid>
+</Window>
